@@ -77,19 +77,22 @@ EyeCubeBoss의 다음 칸을 연결한다.
 
 ## 5. 애니메이션
 
-플레이어 Animator 파라미터:
+애니메이션과 Animator Controller는 프로젝트가 자동 생성한다.
 
-- `Moving` bool
-- `MoveX`, `MoveY`, `AimX`, `AimY` float
-- `Shoot`, `Dash`, `Hurt`, `Dead` trigger
+Player의 `Visual` 오브젝트를 선택하고 Animator의 Controller에 다음 파일을 넣는다.
 
-EyeCube Animator 파라미터:
+`Assets/Animations/Generated/Player/PlayerAnimator.controller`
 
-- `State` int
-- `Speed` float
-- `Hurt`, `Dead` trigger
+EyeCube의 Animator에는 다음 파일을 넣는다.
 
-먼저 애니메이션 없이 색깔 사각형 Sprite로 전투가 작동하는지 확인해도 된다.
-작동 확인 후 PNG를 슬라이스해서 Idle, Move, Shoot, Hurt, Dead 클립을 연결한다.
+`Assets/Animations/Generated/EyeCube/EyeCubeAnimator.controller`
 
-더 자세한 EyeCube 이미지·레이저 설정은 `EyeCube_Setup_KO.md`를 참고한다.
+끝이다. 다시 만들고 싶으면 Unity 상단 메뉴에서 다음을 누른다.
+
+`TitanSoul → Animation → Rebuild Player and EyeCube`
+
+생성된 플레이어 이미지는 다음 위치에 있다.
+
+`Assets/Art/Player/Generated/PlayerSheet.png`
+
+더 자세한 EyeCube 레이저 설정은 `EyeCube_Setup_KO.md`를 참고한다.

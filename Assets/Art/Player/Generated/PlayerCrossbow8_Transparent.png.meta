@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: ea96882b52ad082488ea65278f7211a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3399392309195670976
+    second: PlayerCrossbow8_Transparent_0
+  - first:
+      213: 5410908175133149486
+    second: PlayerCrossbow8_Transparent_1
+  - first:
+      213: -6375067326243549110
+    second: PlayerCrossbow8_Transparent_2
+  - first:
+      213: 699558196281871397
+    second: PlayerCrossbow8_Transparent_3
+  - first:
+      213: -6041401961534360571
+    second: PlayerCrossbow8_Transparent_4
+  - first:
+      213: 6069796604178199112
+    second: PlayerCrossbow8_Transparent_5
+  - first:
+      213: 4962721928211997276
+    second: PlayerCrossbow8_Transparent_6
+  - first:
+      213: 553518454568704658
+    second: PlayerCrossbow8_Transparent_7
+  - first:
+      213: 2769253530619052482
+    second: PlayerCrossbow8_Transparent_8
+  - first:
+      213: -2975320870867526297
+    second: PlayerCrossbow8_Transparent_9
+  - first:
+      213: 2386905742917990993
+    second: PlayerCrossbow8_Transparent_10
+  - first:
+      213: -161497802930055839
+    second: PlayerCrossbow8_Transparent_11
+  - first:
+      213: 167394458308533284
+    second: PlayerCrossbow8_Transparent_12
+  - first:
+      213: 2363822446576046411
+    second: PlayerCrossbow8_Transparent_13
+  - first:
+      213: 1418176700097947270
+    second: PlayerCrossbow8_Transparent_14
+  - first:
+      213: -349000259240807221
+    second: PlayerCrossbow8_Transparent_15
+  - first:
+      213: -5438329052189855365
+    second: PlayerCrossbow8_Transparent_16
+  - first:
+      213: 4925247999801048148
+    second: PlayerCrossbow8_Transparent_17
+  - first:
+      213: 4552469624653842899
+    second: PlayerCrossbow8_Transparent_18
+  - first:
+      213: -4325293365393402289
+    second: PlayerCrossbow8_Transparent_19
+  - first:
+      213: 2969486672083593063
+    second: PlayerCrossbow8_Transparent_20
+  - first:
+      213: -951292083297760737
+    second: PlayerCrossbow8_Transparent_21
+  - first:
+      213: -2337225453682811590
+    second: PlayerCrossbow8_Transparent_22
+  - first:
+      213: -6722832999828465566
+    second: PlayerCrossbow8_Transparent_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 674
+        width: 102
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a723e94bee2d0d0800000000000000
+      internalID: -3399392309195670976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 674
+        width: 106
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29811b2158671b40800000000000000
+      internalID: 5410908175133149486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 666
+        width: 100
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40dd081b063787a0800000000000000
+      internalID: -6375067326243549110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_3
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 674
+        width: 109
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c081d197455b900800000000000000
+      internalID: 699558196281871397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_4
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 674
+        width: 100
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5047569bce0a82ca0800000000000000
+      internalID: -6041401961534360571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_5
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 674
+        width: 109
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842f9e23adf3c3450800000000000000
+      internalID: 6069796604178199112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_6
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 674
+        width: 104
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c522e12dc412fd440800000000000000
+      internalID: 4962721928211997276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_7
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 674
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ad03d0a1e7ea700800000000000000
+      internalID: 553518454568704658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 398
+        width: 102
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c18b89f96d5e6620800000000000000
+      internalID: 2769253530619052482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 399
+        width: 107
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d922f8e6985b6d0800000000000000
+      internalID: -2975320870867526297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_10
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 399
+        width: 99
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a77f6702eff1120800000000000000
+      internalID: 2386905742917990993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_11
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 399
+        width: 100
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16519589a9e32cdf0800000000000000
+      internalID: -161497802930055839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_12
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 398
+        width: 101
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c59d87f54b25200800000000000000
+      internalID: 167394458308533284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_13
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 398
+        width: 107
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b419248bdfbfdc020800000000000000
+      internalID: 2363822446576046411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_14
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 398
+        width: 105
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686e216e1306ea310800000000000000
+      internalID: 1418176700097947270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_15
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 398
+        width: 105
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4be610d1a182bf0800000000000000
+      internalID: -349000259240807221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 118
+        width: 102
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7179806a8c2784b0800000000000000
+      internalID: -5438329052189855365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_17
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 120
+        width: 142
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c38d2f5fef95440800000000000000
+      internalID: 4925247999801048148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_18
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 111
+        width: 139
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d98f3ce00f9d2f30800000000000000
+      internalID: 4552469624653842899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_19
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 119
+        width: 131
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f465f5eb99879f3c0800000000000000
+      internalID: -4325293365393402289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_20
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 119
+        width: 128
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767acce256cb53920800000000000000
+      internalID: 2969486672083593063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_21
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 118
+        width: 123
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a4561f3e45cc2f0800000000000000
+      internalID: -951292083297760737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_22
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 111
+        width: 142
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d1c3145d1809fd0800000000000000
+      internalID: -2337225453682811590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCrossbow8_Transparent_23
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 118
+        width: 139
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26853f87103b3b2a0800000000000000
+      internalID: -6722832999828465566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlayerCrossbow8_Transparent_0: -3399392309195670976
+      PlayerCrossbow8_Transparent_1: 5410908175133149486
+      PlayerCrossbow8_Transparent_10: 2386905742917990993
+      PlayerCrossbow8_Transparent_11: -161497802930055839
+      PlayerCrossbow8_Transparent_12: 167394458308533284
+      PlayerCrossbow8_Transparent_13: 2363822446576046411
+      PlayerCrossbow8_Transparent_14: 1418176700097947270
+      PlayerCrossbow8_Transparent_15: -349000259240807221
+      PlayerCrossbow8_Transparent_16: -5438329052189855365
+      PlayerCrossbow8_Transparent_17: 4925247999801048148
+      PlayerCrossbow8_Transparent_18: 4552469624653842899
+      PlayerCrossbow8_Transparent_19: -4325293365393402289
+      PlayerCrossbow8_Transparent_2: -6375067326243549110
+      PlayerCrossbow8_Transparent_20: 2969486672083593063
+      PlayerCrossbow8_Transparent_21: -951292083297760737
+      PlayerCrossbow8_Transparent_22: -2337225453682811590
+      PlayerCrossbow8_Transparent_23: -6722832999828465566
+      PlayerCrossbow8_Transparent_3: 699558196281871397
+      PlayerCrossbow8_Transparent_4: -6041401961534360571
+      PlayerCrossbow8_Transparent_5: 6069796604178199112
+      PlayerCrossbow8_Transparent_6: 4962721928211997276
+      PlayerCrossbow8_Transparent_7: 553518454568704658
+      PlayerCrossbow8_Transparent_8: 2769253530619052482
+      PlayerCrossbow8_Transparent_9: -2975320870867526297
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

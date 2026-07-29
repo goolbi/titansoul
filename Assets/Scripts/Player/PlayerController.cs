@@ -9,11 +9,8 @@ namespace TitanSoul.Player
     public sealed class PlayerController : MonoBehaviour
     {
         private static readonly int MovingId = Animator.StringToHash("Moving");
-        private static readonly int MoveXId = Animator.StringToHash("MoveX");
-        private static readonly int MoveYId = Animator.StringToHash("MoveY");
-        private static readonly int AimXId = Animator.StringToHash("AimX");
-        private static readonly int AimYId = Animator.StringToHash("AimY");
-        private static readonly int ShootId = Animator.StringToHash("Shoot");
+        private static readonly int DirectionId = Animator.StringToHash("Direction");
+        private static readonly int ArmedId = Animator.StringToHash("Armed");
         private static readonly int DashId = Animator.StringToHash("Dash");
         private static readonly int HurtId = Animator.StringToHash("Hurt");
         private static readonly int DeadId = Animator.StringToHash("Dead");
@@ -30,17 +27,18 @@ namespace TitanSoul.Player
         [SerializeField, Min(0f)] private float dashDuration = 0.16f;
         [SerializeField, Min(0f)] private float dashCooldown = 0.7f;
 
-        [Header("Combat")]
-        [SerializeField, Min(0.01f)] private float secondsPerShot = 0.18f;
-
         private Rigidbody2D body;
         private Health health;
         private Vector2 moveInput;
-        private Vector2 aimDirection = Vector2.right;
+        private Vector2 aimDirection = Vector2.down;
+        private Vector2 facingDirection = Vector2.down;
         private Vector2 dashDirection;
-        private float nextShotTime;
         private float nextDashTime;
         private bool isDashing;
+        private bool isAiming;
+        private bool hasArrow = true;
+
+        public bool HasArrow => hasArrow;
 
         private void Awake()
         {
@@ -51,8 +49,18 @@ namespace TitanSoul.Player
 
             if (animator == null)
                 animator = GetComponentInChildren<Animator>();
+            AssignDefaultAnimatorController();
+            AssignDefaultProjectile();
             if (gameplayCamera == null)
                 gameplayCamera = Camera.main;
+        }
+
+        private void OnValidate()
+        {
+            if (animator == null)
+                animator = GetComponentInChildren<Animator>();
+            AssignDefaultAnimatorController();
+            AssignDefaultProjectile();
         }
 
         private void OnEnable()
@@ -127,11 +135,20 @@ namespace TitanSoul.Player
             Mouse mouse = Mouse.current;
             Keyboard keyboard = Keyboard.current;
 
-            if (mouse != null
-                && mouse.leftButton.isPressed
-                && Time.time >= nextShotTime)
+            if (!hasArrow)
             {
-                Shoot();
+                isAiming = false;
+            }
+            else if (mouse != null)
+            {
+                if (mouse.rightButton.wasPressedThisFrame)
+                    isAiming = true;
+
+                if (isAiming && mouse.rightButton.wasReleasedThisFrame)
+                {
+                    Shoot();
+                    isAiming = false;
+                }
             }
 
             bool dashPressed = keyboard != null
@@ -143,18 +160,21 @@ namespace TitanSoul.Player
 
         private void Shoot()
         {
-            nextShotTime = Time.time + secondsPerShot;
-            if (projectilePrefab != null && firePoint != null)
-            {
-                PlayerProjectile projectile = Instantiate(
-                    projectilePrefab,
-                    firePoint.position,
-                    Quaternion.identity);
-                projectile.Launch(aimDirection);
-            }
+            if (!hasArrow || projectilePrefab == null)
+                return;
 
-            if (animator != null)
-                animator.SetTrigger(ShootId);
+            hasArrow = false;
+            Transform spawnPoint = firePoint != null ? firePoint : transform;
+            PlayerProjectile projectile = Instantiate(
+                projectilePrefab,
+                spawnPoint.position,
+                Quaternion.identity);
+            projectile.Launch(aimDirection, transform, this);
+        }
+
+        public void RecoverArrow()
+        {
+            hasArrow = true;
         }
 
         private IEnumerator Dash()
@@ -171,24 +191,67 @@ namespace TitanSoul.Player
 
         private void UpdateAnimator()
         {
-            if (animator == null)
+            if (animator == null || animator.runtimeAnimatorController == null)
                 return;
 
-            animator.SetBool(MovingId, moveInput.sqrMagnitude > 0.01f);
-            animator.SetFloat(MoveXId, moveInput.x);
-            animator.SetFloat(MoveYId, moveInput.y);
-            animator.SetFloat(AimXId, aimDirection.x);
-            animator.SetFloat(AimYId, aimDirection.y);
+            bool armedPose = isAiming && hasArrow;
+            if (armedPose)
+                facingDirection = aimDirection;
+            else if (moveInput.sqrMagnitude > 0.01f)
+                facingDirection = moveInput.normalized;
+
+            bool showMovingPose = moveInput.sqrMagnitude > 0.01f && !armedPose;
+            animator.SetBool(MovingId, showMovingPose);
+            animator.SetBool(ArmedId, armedPose);
+            animator.SetInteger(DirectionId, DirectionToIndex(facingDirection));
+        }
+
+        private static int DirectionToIndex(Vector2 direction)
+        {
+            if (direction.sqrMagnitude < 0.001f)
+                return 0;
+
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            int sectorFromRight = Mathf.RoundToInt(angle / 45f);
+            return (sectorFromRight + 2 + 8) % 8;
         }
 
         private void OnHealthChanged(int current, int maximum)
         {
-            if (animator == null)
+            if (animator == null || animator.runtimeAnimatorController == null)
                 return;
 
             animator.SetTrigger(current <= 0 ? DeadId : HurtId);
             if (current <= 0)
                 body.linearVelocity = Vector2.zero;
+        }
+
+        private void AssignDefaultAnimatorController()
+        {
+#if UNITY_EDITOR
+            if (animator == null || animator.runtimeAnimatorController != null)
+                return;
+
+            animator.runtimeAnimatorController =
+                UnityEditor.AssetDatabase.LoadAssetAtPath<RuntimeAnimatorController>(
+                    "Assets/Animations/Generated/Player/PlayerAnimator.controller");
+            if (animator.runtimeAnimatorController != null)
+                UnityEditor.EditorUtility.SetDirty(animator);
+#endif
+        }
+
+        private void AssignDefaultProjectile()
+        {
+#if UNITY_EDITOR
+            PlayerProjectile generatedArrow =
+                UnityEditor.AssetDatabase.LoadAssetAtPath<PlayerProjectile>(
+                "Assets/Prefabs/Projectiles/Generated/MagicArrow.prefab");
+            if (generatedArrow != null && projectilePrefab != generatedArrow)
+            {
+                projectilePrefab = generatedArrow;
+                UnityEditor.EditorUtility.SetDirty(this);
+            }
+#endif
         }
     }
 }

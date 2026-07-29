@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 926129895a0c65f4dbe179b405d85867
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6702012573378223531
+    second: MagicArrow_0
+  - first:
+      213: 1889262411867440718
+    second: MagicArrow_1
+  - first:
+      213: 4651641897183442688
+    second: MagicArrow_2
+  - first:
+      213: -8458148334992580682
+    second: MagicArrow_3
+  - first:
+      213: -5730681215903059069
+    second: MagicArrow_4
+  - first:
+      213: 3025513992515821668
+    second: MagicArrow_5
+  - first:
+      213: 8218086914658900943
+    second: MagicArrow_6
+  - first:
+      213: 352048015391493507
+    second: MagicArrow_7
+  - first:
+      213: 6249108465170103861
+    second: MagicArrow_8
+  - first:
+      213: 1232000254756713219
+    second: MagicArrow_9
+  - first:
+      213: 148528567418251077
+    second: MagicArrow_10
+  - first:
+      213: 2703040049643453345
+    second: MagicArrow_11
+  - first:
+      213: -1150767375213264159
+    second: MagicArrow_12
+  - first:
+      213: -1614698978208906045
+    second: MagicArrow_13
+  - first:
+      213: -3860940070250319485
+    second: MagicArrow_14
+  - first:
+      213: 6862313903530809594
+    second: MagicArrow_15
+  - first:
+      213: -1005212242073367949
+    second: MagicArrow_16
+  - first:
+      213: -4802139271551057142
+    second: MagicArrow_17
+  - first:
+      213: 8559842690224341827
+    second: MagicArrow_18
+  - first:
+      213: -8309434132490846155
+    second: MagicArrow_19
+  - first:
+      213: 2434082931665394660
+    second: MagicArrow_20
+  - first:
+      213: -5038252886287453835
+    second: MagicArrow_R0_C0
+  - first:
+      213: -5020432961002079221
+    second: MagicArrow_R0_C1
+  - first:
+      213: -8458543176821194814
+    second: MagicArrow_R0_C2
+  - first:
+      213: 8019562596148828613
+    second: MagicArrow_R0_C3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagicArrow_R0_C0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 683
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571ff3891b7841ab0800000000000000
+      internalID: -5038252886287453835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow_R0_C1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 683
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cfec442d6d35ab0800000000000000
+      internalID: -5020432961002079221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow_R0_C2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 683
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfb444cbc73d9a80800000000000000
+      internalID: -8458543176821194814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow_R0_C3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 683
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9d57511b53b4f60800000000000000
+      internalID: 8019562596148828613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MagicArrow_0: 6702012573378223531
+      MagicArrow_1: 1889262411867440718
+      MagicArrow_10: 148528567418251077
+      MagicArrow_11: 2703040049643453345
+      MagicArrow_12: -1150767375213264159
+      MagicArrow_13: -1614698978208906045
+      MagicArrow_14: -3860940070250319485
+      MagicArrow_15: 6862313903530809594
+      MagicArrow_16: -1005212242073367949
+      MagicArrow_17: -4802139271551057142
+      MagicArrow_18: 8559842690224341827
+      MagicArrow_19: -8309434132490846155
+      MagicArrow_2: 4651641897183442688
+      MagicArrow_20: 2434082931665394660
+      MagicArrow_3: -8458148334992580682
+      MagicArrow_4: -5730681215903059069
+      MagicArrow_5: 3025513992515821668
+      MagicArrow_6: 8218086914658900943
+      MagicArrow_7: 352048015391493507
+      MagicArrow_8: 6249108465170103861
+      MagicArrow_9: 1232000254756713219
+      MagicArrow_R0_C0: -5038252886287453835
+      MagicArrow_R0_C1: -5020432961002079221
+      MagicArrow_R0_C2: -8458543176821194814
+      MagicArrow_R0_C3: 8019562596148828613
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

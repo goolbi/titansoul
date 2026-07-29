@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: d30d538e91929684a9265dc3432a673d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 771512681504405401
+    second: PlayerExactMapped_0
+  - first:
+      213: 3216947077547566627
+    second: PlayerExactMapped_1
+  - first:
+      213: 4189589275456622845
+    second: PlayerExactMapped_2
+  - first:
+      213: -6124514338027916407
+    second: PlayerExactMapped_3
+  - first:
+      213: -8933207318937948355
+    second: PlayerExactMapped_4
+  - first:
+      213: -8545443463221663826
+    second: PlayerExactMapped_5
+  - first:
+      213: 1068112771287809259
+    second: PlayerExactMapped_6
+  - first:
+      213: 2913920096081395011
+    second: PlayerExactMapped_7
+  - first:
+      213: 3461298996395036037
+    second: PlayerExactMapped_8
+  - first:
+      213: 6534127566536557187
+    second: PlayerExactMapped_9
+  - first:
+      213: -6051995842439511235
+    second: PlayerExactMapped_10
+  - first:
+      213: 4440932429409851237
+    second: PlayerExactMapped_11
+  - first:
+      213: -8604154820895672597
+    second: PlayerExactMapped_12
+  - first:
+      213: -3932601767801312552
+    second: PlayerExactMapped_13
+  - first:
+      213: -3084151035989465487
+    second: PlayerExactMapped_14
+  - first:
+      213: -234396110041567741
+    second: PlayerExactMapped_15
+  - first:
+      213: 2307013981353374867
+    second: PlayerExactMapped_16
+  - first:
+      213: 46374362804230631
+    second: PlayerExactMapped_17
+  - first:
+      213: -4549182895539971991
+    second: PlayerExactMapped_18
+  - first:
+      213: -7023875785270253200
+    second: PlayerExactMapped_19
+  - first:
+      213: 2786130129523542808
+    second: PlayerExactMapped_20
+  - first:
+      213: 2499520514281843359
+    second: PlayerExactMapped_21
+  - first:
+      213: 1475701781984721841
+    second: PlayerExactMapped_22
+  - first:
+      213: -1497090587287000606
+    second: PlayerExactMapped_23
+  - first:
+      213: 2742822506260955072
+    second: Exact8_R0_C0
+  - first:
+      213: -6045861344122488527
+    second: Exact8_R0_C1
+  - first:
+      213: -2792766439629388914
+    second: Exact8_R0_C2
+  - first:
+      213: -3180594048487161726
+    second: Exact8_R0_C3
+  - first:
+      213: -7637063798011447925
+    second: Exact8_R0_C4
+  - first:
+      213: 2457016308691966186
+    second: Exact8_R0_C5
+  - first:
+      213: 8632358803188824512
+    second: Exact8_R0_C6
+  - first:
+      213: -3079924843500510548
+    second: Exact8_R0_C7
+  - first:
+      213: 7249636970272900881
+    second: Exact8_R1_C0
+  - first:
+      213: 7142096658551289419
+    second: Exact8_R1_C1
+  - first:
+      213: 7683374016442115697
+    second: Exact8_R1_C2
+  - first:
+      213: 5776436944032880457
+    second: Exact8_R1_C3
+  - first:
+      213: -7020065210429482251
+    second: Exact8_R1_C4
+  - first:
+      213: -7055608580330928128
+    second: Exact8_R1_C5
+  - first:
+      213: 4274215472256360115
+    second: Exact8_R1_C6
+  - first:
+      213: -3915442268271843887
+    second: Exact8_R1_C7
+  - first:
+      213: -7696079491677548465
+    second: Exact8_R2_C0
+  - first:
+      213: 6027168826682718637
+    second: Exact8_R2_C1
+  - first:
+      213: 6088651031196129261
+    second: Exact8_R2_C2
+  - first:
+      213: -2972492555627415774
+    second: Exact8_R2_C3
+  - first:
+      213: -3333535918922213081
+    second: Exact8_R2_C4
+  - first:
+      213: -4871964333683007218
+    second: Exact8_R2_C5
+  - first:
+      213: -7835011416193317874
+    second: Exact8_R2_C6
+  - first:
+      213: -4771381018609180807
+    second: Exact8_R2_C7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Exact8_R0_C0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf71af8986701620800000000000000
+      internalID: 2742822506260955072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R0_C1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139305ec329c81ca0800000000000000
+      internalID: -6045861344122488527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R0_C2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83024948b91e39d0800000000000000
+      internalID: -2792766439629388914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R0_C3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280833d70924cd3d0800000000000000
+      internalID: -3180594048487161726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R0_C4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85388840f2b30690800000000000000
+      internalID: -7637063798011447925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R0_C5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae81dee9053191220800000000000000
+      internalID: 2457016308691966186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R0_C6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c939c5689c4cc770800000000000000
+      internalID: 8632358803188824512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R0_C7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca260484ca8e145d0800000000000000
+      internalID: -3079924843500510548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R1_C0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117c7ab0a62eb9460800000000000000
+      internalID: 7249636970272900881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R1_C1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46347c0213dd1360800000000000000
+      internalID: 7142096658551289419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R1_C2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176af7ea5f3d0aa60800000000000000
+      internalID: 7683374016442115697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R1_C3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947d584bbc60a2050800000000000000
+      internalID: 5776436944032880457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R1_C4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fad54092e7b39e90800000000000000
+      internalID: -7020065210429482251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R1_C5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0084d2fd061751e90800000000000000
+      internalID: -7055608580330928128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R1_C6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be91558350115b30800000000000000
+      internalID: 4274215472256360115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R1_C7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d56b1d700e89a9c0800000000000000
+      internalID: -3915442268271843887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R2_C0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4014675a78023590800000000000000
+      internalID: -7696079491677548465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R2_C1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da93bb35d1ec4a350800000000000000
+      internalID: 6027168826682718637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R2_C2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7d2c39adb3f7450800000000000000
+      internalID: 6088651031196129261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R2_C3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227b55405c59fb6d0800000000000000
+      internalID: -2972492555627415774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R2_C4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729d2aa5eb6ecb1d0800000000000000
+      internalID: -3333535918922213081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R2_C5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01a374504e436cb0800000000000000
+      internalID: -4871964333683007218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R2_C6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04caaee0a2744390800000000000000
+      internalID: -7835011416193317874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exact8_R2_C7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f12c15e36a8cdb0800000000000000
+      internalID: -4771381018609180807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Exact8_R0_C0: 2742822506260955072
+      Exact8_R0_C1: -6045861344122488527
+      Exact8_R0_C2: -2792766439629388914
+      Exact8_R0_C3: -3180594048487161726
+      Exact8_R0_C4: -7637063798011447925
+      Exact8_R0_C5: 2457016308691966186
+      Exact8_R0_C6: 8632358803188824512
+      Exact8_R0_C7: -3079924843500510548
+      Exact8_R1_C0: 7249636970272900881
+      Exact8_R1_C1: 7142096658551289419
+      Exact8_R1_C2: 7683374016442115697
+      Exact8_R1_C3: 5776436944032880457
+      Exact8_R1_C4: -7020065210429482251
+      Exact8_R1_C5: -7055608580330928128
+      Exact8_R1_C6: 4274215472256360115
+      Exact8_R1_C7: -3915442268271843887
+      Exact8_R2_C0: -7696079491677548465
+      Exact8_R2_C1: 6027168826682718637
+      Exact8_R2_C2: 6088651031196129261
+      Exact8_R2_C3: -2972492555627415774
+      Exact8_R2_C4: -3333535918922213081
+      Exact8_R2_C5: -4871964333683007218
+      Exact8_R2_C6: -7835011416193317874
+      Exact8_R2_C7: -4771381018609180807
+      PlayerExactMapped_0: 771512681504405401
+      PlayerExactMapped_1: 3216947077547566627
+      PlayerExactMapped_10: -6051995842439511235
+      PlayerExactMapped_11: 4440932429409851237
+      PlayerExactMapped_12: -8604154820895672597
+      PlayerExactMapped_13: -3932601767801312552
+      PlayerExactMapped_14: -3084151035989465487
+      PlayerExactMapped_15: -234396110041567741
+      PlayerExactMapped_16: 2307013981353374867
+      PlayerExactMapped_17: 46374362804230631
+      PlayerExactMapped_18: -4549182895539971991
+      PlayerExactMapped_19: -7023875785270253200
+      PlayerExactMapped_2: 4189589275456622845
+      PlayerExactMapped_20: 2786130129523542808
+      PlayerExactMapped_21: 2499520514281843359
+      PlayerExactMapped_22: 1475701781984721841
+      PlayerExactMapped_23: -1497090587287000606
+      PlayerExactMapped_3: -6124514338027916407
+      PlayerExactMapped_4: -8933207318937948355
+      PlayerExactMapped_5: -8545443463221663826
+      PlayerExactMapped_6: 1068112771287809259
+      PlayerExactMapped_7: 2913920096081395011
+      PlayerExactMapped_8: 3461298996395036037
+      PlayerExactMapped_9: 6534127566536557187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

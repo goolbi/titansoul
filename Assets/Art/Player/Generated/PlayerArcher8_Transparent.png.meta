@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 210239eed67fd454a826116db25ac62d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6122269217574593719
+    second: PlayerArcher8_Transparent_0
+  - first:
+      213: 3970317211138705018
+    second: PlayerArcher8_Transparent_1
+  - first:
+      213: 3499392242465250575
+    second: PlayerArcher8_Transparent_2
+  - first:
+      213: 1235146256112330653
+    second: PlayerArcher8_Transparent_3
+  - first:
+      213: -1772550908406873223
+    second: PlayerArcher8_Transparent_4
+  - first:
+      213: 2030412447611941524
+    second: PlayerArcher8_Transparent_5
+  - first:
+      213: -7172753402066590443
+    second: PlayerArcher8_Transparent_6
+  - first:
+      213: 6993644036167091113
+    second: PlayerArcher8_Transparent_7
+  - first:
+      213: 1843329734104551556
+    second: PlayerArcher8_Transparent_8
+  - first:
+      213: -791270241373832815
+    second: PlayerArcher8_Transparent_9
+  - first:
+      213: 2109542326280212912
+    second: PlayerArcher8_Transparent_10
+  - first:
+      213: 5891243681021760396
+    second: PlayerArcher8_Transparent_11
+  - first:
+      213: -6426832580420400453
+    second: PlayerArcher8_Transparent_12
+  - first:
+      213: -4401338394866692009
+    second: PlayerArcher8_Transparent_13
+  - first:
+      213: 3341123282183534817
+    second: PlayerArcher8_Transparent_14
+  - first:
+      213: 9011239423728540788
+    second: PlayerArcher8_Transparent_15
+  - first:
+      213: 1298354407697352084
+    second: PlayerArcher8_Transparent_16
+  - first:
+      213: -5065506563622133949
+    second: PlayerArcher8_Transparent_17
+  - first:
+      213: -1308831592102526827
+    second: PlayerArcher8_Transparent_18
+  - first:
+      213: -8318484878583388602
+    second: PlayerArcher8_Transparent_19
+  - first:
+      213: 7617556467764526891
+    second: PlayerArcher8_Transparent_20
+  - first:
+      213: -1119821493702491359
+    second: PlayerArcher8_Transparent_21
+  - first:
+      213: -7734960279225931031
+    second: PlayerArcher8_Transparent_22
+  - first:
+      213: 1207562744515729150
+    second: PlayerArcher8_Transparent_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 644
+        width: 118
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b58237594590ba0800000000000000
+      internalID: -6122269217574593719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 644
+        width: 117
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76ca87c776691730800000000000000
+      internalID: 3970317211138705018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_2
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 644
+        width: 112
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d16e534b6509030800000000000000
+      internalID: 3499392242465250575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_3
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 644
+        width: 112
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97aa31d9fe142110800000000000000
+      internalID: 1235146256112330653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_4
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 644
+        width: 114
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973cc161752a667e0800000000000000
+      internalID: -1772550908406873223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_5
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 646
+        width: 110
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492f07f0d597d2c10800000000000000
+      internalID: 2030412447611941524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_6
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 644
+        width: 113
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515a850a8c2457c90800000000000000
+      internalID: -7172753402066590443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_7
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 644
+        width: 114
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3c44d623a6e0160800000000000000
+      internalID: 6993644036167091113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 359
+        width: 118
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480973570a2d49910800000000000000
+      internalID: 1843329734104551556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 359
+        width: 125
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199339568e7d405f0800000000000000
+      internalID: -791270241373832815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 359
+        width: 117
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b15594a199964d10800000000000000
+      internalID: 2109542326280212912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_11
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 359
+        width: 122
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83119c2ae6e1c150800000000000000
+      internalID: 5891243681021760396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_12
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 359
+        width: 114
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba8225a1dd4fc6a0800000000000000
+      internalID: -6426832580420400453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_13
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 359
+        width: 121
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750dea59c0e4be2c0800000000000000
+      internalID: -4401338394866692009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_14
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 357
+        width: 124
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e836515ced0e5e20800000000000000
+      internalID: 3341123282183534817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_15
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 358
+        width: 117
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47cd555238a5e0d70800000000000000
+      internalID: 9011239423728540788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 88
+        width: 162
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4950d5f647ea40210800000000000000
+      internalID: 1298354407697352084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 88
+        width: 161
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f94eb5e94b3b9b0800000000000000
+      internalID: -5065506563622133949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_18
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 88
+        width: 162
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5908be9f99816dde0800000000000000
+      internalID: -1308831592102526827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_19
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 88
+        width: 169
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646249e731ece8c80800000000000000
+      internalID: -8318484878583388602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_20
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 89
+        width: 118
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f75957f3ff6b960800000000000000
+      internalID: 7617556467764526891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_21
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 88
+        width: 168
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1230408d8489570f0800000000000000
+      internalID: -1119821493702491359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_22
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 88
+        width: 158
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea6bfc8b96e7a490800000000000000
+      internalID: -7734960279225931031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerArcher8_Transparent_23
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 88
+        width: 153
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef61bde0bef12c010800000000000000
+      internalID: 1207562744515729150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlayerArcher8_Transparent_0: -6122269217574593719
+      PlayerArcher8_Transparent_1: 3970317211138705018
+      PlayerArcher8_Transparent_10: 2109542326280212912
+      PlayerArcher8_Transparent_11: 5891243681021760396
+      PlayerArcher8_Transparent_12: -6426832580420400453
+      PlayerArcher8_Transparent_13: -4401338394866692009
+      PlayerArcher8_Transparent_14: 3341123282183534817
+      PlayerArcher8_Transparent_15: 9011239423728540788
+      PlayerArcher8_Transparent_16: 1298354407697352084
+      PlayerArcher8_Transparent_17: -5065506563622133949
+      PlayerArcher8_Transparent_18: -1308831592102526827
+      PlayerArcher8_Transparent_19: -8318484878583388602
+      PlayerArcher8_Transparent_2: 3499392242465250575
+      PlayerArcher8_Transparent_20: 7617556467764526891
+      PlayerArcher8_Transparent_21: -1119821493702491359
+      PlayerArcher8_Transparent_22: -7734960279225931031
+      PlayerArcher8_Transparent_23: 1207562744515729150
+      PlayerArcher8_Transparent_3: 1235146256112330653
+      PlayerArcher8_Transparent_4: -1772550908406873223
+      PlayerArcher8_Transparent_5: 2030412447611941524
+      PlayerArcher8_Transparent_6: -7172753402066590443
+      PlayerArcher8_Transparent_7: 6993644036167091113
+      PlayerArcher8_Transparent_8: 1843329734104551556
+      PlayerArcher8_Transparent_9: -791270241373832815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
