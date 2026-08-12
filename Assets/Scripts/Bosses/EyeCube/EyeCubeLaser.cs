@@ -85,6 +85,46 @@ namespace TitanSoul.Bosses.EyeCube
             nextDamageTime.Clear();
         }
 
+        public IEnumerator PlayDirection(
+            Transform beamOrigin,
+            Vector2 worldDirection,
+            float chargeSeconds,
+            float fireSeconds)
+        {
+            origin = beamOrigin;
+            target = null;
+            lockedDirection = worldDirection.sqrMagnitude > 0f
+                ? worldDirection.normalized
+                : Vector2.up;
+            line.enabled = true;
+            line.colorGradient = chargingColor;
+            line.widthMultiplier = chargingWidth;
+
+            float elapsed = 0f;
+            while (elapsed < chargeSeconds)
+            {
+                elapsed += Time.deltaTime;
+                lockedDirection = origin != null
+                    ? (Vector2)origin.up
+                    : lockedDirection;
+                Draw(lockedDirection, false);
+                yield return null;
+            }
+
+            line.colorGradient = firingColor;
+            line.widthMultiplier = firingWidth;
+            elapsed = 0f;
+            while (elapsed < fireSeconds)
+            {
+                elapsed += Time.deltaTime;
+                Draw(lockedDirection, true);
+                yield return null;
+            }
+
+            line.enabled = false;
+            nextDamageTime.Clear();
+        }
+
         private void Draw(Vector2 direction, bool canDamage)
         {
             Vector2 start = origin.position;
