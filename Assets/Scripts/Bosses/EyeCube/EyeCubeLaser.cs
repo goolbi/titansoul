@@ -36,6 +36,14 @@ namespace TitanSoul.Bosses.EyeCube
             line.enabled = false;
         }
 
+        private void OnDisable()
+        {
+            if (line != null)
+                line.enabled = false;
+
+            nextDamageTime.Clear();
+        }
+
         public IEnumerator Play(
             Transform beamOrigin,
             Transform trackedTarget,

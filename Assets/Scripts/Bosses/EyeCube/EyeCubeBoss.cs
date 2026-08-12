@@ -92,6 +92,8 @@ namespace TitanSoul.Bosses.EyeCube
         private void OnDisable()
         {
             health.HealthChanged -= OnHealthChanged;
+            behaviour = null;
+            body.linearVelocity = Vector2.zero;
         }
 
         private void FixedUpdate()
