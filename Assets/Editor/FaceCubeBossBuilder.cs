@@ -87,6 +87,15 @@ namespace TitanSoul.EditorTools
             renderer.sprite = sprite;
             renderer.sortingOrder = 5;
 
+            GameObject shadowObject = new("SlamShadow");
+            shadowObject.transform.SetParent(root.transform, false);
+            shadowObject.transform.localPosition = new Vector3(0f, -1.5f, 0f);
+            SpriteRenderer shadow = shadowObject.AddComponent<SpriteRenderer>();
+            shadow.sprite = sprite;
+            shadow.color = new Color(0.08f, 0.02f, 0.08f, 0.35f);
+            shadow.sortingOrder = 4;
+            shadow.enabled = false;
+
             Transform muzzle = new GameObject("EyeMuzzle").transform;
             muzzle.SetParent(visual.transform, false);
             muzzle.localPosition = new Vector3(0f, 0.45f, 0f);
@@ -119,6 +128,9 @@ namespace TitanSoul.EditorTools
             serializedBoss.FindProperty("rollingVisual").objectReferenceValue = visual.transform;
             serializedBoss.FindProperty("laser").objectReferenceValue = laser;
             serializedBoss.FindProperty("eyeMuzzle").objectReferenceValue = muzzle;
+            serializedBoss.FindProperty("slamShadow").objectReferenceValue = shadow;
+            serializedBoss.FindProperty("slamDamage").intValue = 10;
+            serializedBoss.FindProperty("slamTargetLayers").intValue = 1 << LayerMask.NameToLayer("Player");
             serializedBoss.ApplyModifiedPropertiesWithoutUndo();
 
             PrefabUtility.SaveAsPrefabAsset(root, PrefabPath);

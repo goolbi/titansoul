@@ -89,7 +89,8 @@ namespace TitanSoul.Bosses.EyeCube
             Transform beamOrigin,
             Vector2 worldDirection,
             float chargeSeconds,
-            float fireSeconds)
+            float fireSeconds,
+            bool canDamage = true)
         {
             origin = beamOrigin;
             target = null;
@@ -117,7 +118,7 @@ namespace TitanSoul.Bosses.EyeCube
             while (elapsed < fireSeconds)
             {
                 elapsed += Time.deltaTime;
-                Draw(lockedDirection, true);
+                Draw(lockedDirection, canDamage);
                 yield return null;
             }
 
